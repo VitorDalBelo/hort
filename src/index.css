@@ -11,3 +11,52 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
 }
+
+.navbar{
+  background-color: #3F874D !important;
+}
+
+#logo{
+  max-width: 20vw;
+}
+
+.icon{
+  font-size: 2rem !important;
+}
+
+@media (max-width: 600px)
+{
+  .icon
+   {
+
+    font-size: 1.5rem !important;
+   }
+}
+
+.btnAdd{
+  background-color: white !important;
+  color: #3F874D !important;
+  text-transform:capitalize !important
+
+}
+
+.btnAdd:hover{
+  background-color: #3F874D !important;
+  color: white !important;
+}
+
+.btnRemove{
+  background-color: white !important;
+  color: #D32F2F !important;
+  text-transform:capitalize !important
+
+}
+
+.btnRemove:hover{
+  background-color: #D32F2F !important;
+  color: white !important;
+}
+
+.cardTable td{
+  padding: 0 5px;
+}
